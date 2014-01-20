@@ -1,5 +1,5 @@
 #!/bin/bash
-# script for testing new Whonix releases
+# script for testing new Whonix releases 
 
 sudo apt-get update
 git clone https://github.com/adrelanos/nothing-to-see
