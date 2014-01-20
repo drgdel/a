@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo fdisk -l
-sudo mkdir /usb1
+# sudo fdisk -l
+# sudo mkdir /usb1
 sudo mount -t vfat /dev/sdb1 /usb1 -o uid=1000,gid=1000,utf8,dmask=027,fmask=137
-sudo cp /home/user/log7735 /usb1
-sudo umount /usb1
+# sudo cp /home/user/log7735 /usb1
+# sudo umount /usb1
