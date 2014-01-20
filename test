@@ -1,0 +1,9 @@
+#!/bin/bash
+# script for testing new Whonix releases
+
+sudo apt-get update
+git clone https://github.com/adrelanos/nothing-to-see
+cd nothing-to-see
+git tag
+git checkout 7.7.3.5
+sudo ./whonix_build --tor-gateway --bare-metal --build >> /home/user/log7735 2>> /home/user/log7735
