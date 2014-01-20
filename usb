@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo fdisk -l  (to check if the USB is present  (as in small L))
+sudo mkdir /usb
+sudo mount -t vfat /dev/sdb1 /usb -o uid=1000,gid=1000,utf8,dmask=027,fmask=137
+sudo cp /home/user/log7735 /usb
+sudo umount /usb
